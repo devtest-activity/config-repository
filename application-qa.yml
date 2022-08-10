@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/devtest-activity/config-repository.git
+    
+
+server:
+  port: ${port:8888}
