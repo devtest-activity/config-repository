@@ -6,3 +6,6 @@ spring:
   profiles:
     active:
     - default
+
+
+name-env: default
