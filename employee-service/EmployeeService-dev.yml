@@ -3,8 +3,5 @@ server:
 spring:
   application:
     name: EmployeeService
-  profiles:
-    active:
-    - dev
 
 name-env: development
